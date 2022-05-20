@@ -1,0 +1,85 @@
+
+
+.append{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 45px;
+    
+}
+
+.append>div{
+
+}
+.flex{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 120px;
+    border-radius: 1rem;
+    background-color: #edf2f4;
+
+}
+
+.flex:hover{
+    cursor: pointer;
+}
+
+.buttonsBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+img{
+    width: 100px;
+    height: 120px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.underBx{
+
+    
+}
+
+.span{
+    margin-top: 4px;
+    margin-bottom: -13px;
+}
+
+.underBx>p{
+    margin-bottom: -13px;
+    font-size: 17px;
+    font-weight: 900;
+}
+.underBx>p:nth-child(1){
+    margin-top: -2px;
+    color:  red;
+    font-size: larger;
+}
+
+h3{
+    background-color: teal;
+    border-radius: 3px;
+    width: 27px;
+    margin-left: 60px;
+}
+.button{
+    width: 120px;
+    height: 42px;
+    border:none;
+    background-color: #03071e;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffba08;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.active{
+    background-color:#ffba08 ;
+    color: #03071e;
+    transition: all 0.5s;
+    border: 2px solid #03071e;
+}
